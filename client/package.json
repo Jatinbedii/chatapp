@@ -1,0 +1,27 @@
+{
+  "name": "client",
+  "version": "0.1.0",
+  "private": true,
+  "scripts": {
+    "dev": "next dev",
+    "build": "next build",
+    "start": "next start",
+    "lint": "next lint"
+  },
+  "dependencies": {
+    "@emoji-mart/react": "^1.1.1",
+    "@next/font": "^13.5.4",
+    "axios": "^1.5.1",
+    "next": "latest",
+    "react": "latest",
+    "react-dom": "latest",
+    "react-spinners": "^0.13.8",
+    "socket.io": "^4.7.2",
+    "socket.io-client": "^4.7.2"
+  },
+  "devDependencies": {
+    "autoprefixer": "latest",
+    "postcss": "latest",
+    "tailwindcss": "latest"
+  }
+}
