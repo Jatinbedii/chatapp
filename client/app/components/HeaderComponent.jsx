@@ -24,10 +24,13 @@ function HeaderComponent() {
     socket.disconnect();
     router.push('/login');
   }
+  function gotoprofile(){
+    router.push('/profile')
+  }
   return (
     <div className='w-100 h-[35px] flex flex-row'>
       <button className='bg-red-500' onClick={logout}>LOGOUT</button>
-       <img height='100px' width='100px' src={pfp} alt="image" />
+       <img onClick={gotoprofile} height='100px' width='100px' src={pfp} alt="image" />
 
       
     </div>

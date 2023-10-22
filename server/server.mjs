@@ -134,7 +134,7 @@ app.post('/api/addmessage', async(req,res)=>{
         message : {
           text: message
         },
-        users: [from,to],
+        users: [from,to],//update pfp
         sender: from
     })
 
@@ -166,7 +166,13 @@ try {
 
 })
 
+
+
+
+
 //socket
+
+
 
 const io = new Server(server, { 
  
@@ -204,6 +210,8 @@ io.on("connection",(socket)=>{
 
 
 })
+
+
 
 
 
